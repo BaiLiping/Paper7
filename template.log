@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.9.2)  8 JAN 2021 11:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.9.2)  8 JAN 2021 20:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -112,7 +112,7 @@ File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count193
 \l__pdf_internal_box=\box48
 )
-No file template.aux.
+(./template.aux)
 \openout1 = `template.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 62.
@@ -129,6 +129,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 62.
 LaTeX Font Info:    ... okay on input line 62.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 62.
 LaTeX Font Info:    ... okay on input line 62.
+
 Unknown journal: specify \journalname{<name of your journal>} in preambel
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -162,28 +163,16 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 93.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 93.
-
-LaTeX Warning: Citation `RefB' on page 1 undefined on input line 108.
-
-
-LaTeX Warning: Citation `RefJ' on page 1 undefined on input line 108.
-
-
-LaTeX Warning: Reference `sec:1' on page 1 undefined on input line 112.
-
 Package epstopdf Info: Source file: <example.eps>
 (epstopdf)                    date: 2008-06-12 09:01:30
 (epstopdf)                    size: 304 bytes
 (epstopdf)             Output file: <example-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-01-08 11:58:02
+(epstopdf)                    size: 2644 bytes
 (epstopdf)             Command: <repstopdf --outfile=example-eps-converted-to.p
 df example.eps>
 (epstopdf)             \includegraphics on input line 122.
-runsystem(repstopdf --outfile=example-eps-converted-to.pdf example.eps)...execu
-ted safely (allowed).
-
-Package epstopdf Info: Result file: <example-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-01-08 11:58:02
-(epstopdf)                    size: 2644 bytes.
+Package epstopdf Info: Output file is already uptodate.
 <example-eps-converted-to.pdf, id=1, 202.7575pt x 202.7575pt>
 File: example-eps-converted-to.pdf Graphic file (type pdf)
 <use example-eps-converted-to.pdf>
@@ -204,33 +193,26 @@ File: example-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: example-eps-converted-to.pdf  used on input line 132.
 (pdftex.def)             Requested size: 253.5pt x 253.50812pt.
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2 <./example-eps-conver
-ted-to.pdf>] [3] (./template.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+ted-to.pdf>] [3] (./template.aux) ) 
 Here is how much of TeX's memory you used:
- 1606 strings out of 481239
- 24832 string characters out of 5920378
- 258827 words of memory out of 5000000
+ 1608 strings out of 481239
+ 24858 string characters out of 5920378
+ 258883 words of memory out of 5000000
  16898 multiletter control sequences out of 15000+600000
  538786 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  30i,7n,25p,215b,322s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmti10.pfb>
-Output written on template.pdf (3 pages, 111590 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmbsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on template.pdf (3 pages, 111544 bytes).
 PDF statistics:
  57 PDF objects out of 1000 (max. 8388607)
  40 compressed objects within 1 object stream

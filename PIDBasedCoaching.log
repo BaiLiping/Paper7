@@ -1,11 +1,22 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.9.2)  8 JAN 2021 12:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.9.2)  8 JAN 2021 23:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **PIDBasedCoaching.tex
 (./PIDBasedCoaching.tex
 LaTeX2e <2020-02-02> patch level 2
-L3 programming layer <2020-02-14> (./svjour3.cls
+L3 programming layer <2020-02-14>
+
+LaTeX Warning: File `example.eps' already exists on the system.
+               Not generating it from this source.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/fix-cm.sty
+Package: fix-cm 2015/01/14 v1.1t fixes to LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
+)) (./svjour3.cls
 Document Class: svjour3 2007/05/08 v3.2 
 LaTeX document class for Springer journals
 Class Springer-SVJour3 Info: extra/valid Springer sub-package (-> *.clo) 
@@ -72,7 +83,67 @@ LaTeX Font Info:    Redeclaring math symbol \Omega on input line 157.
 \figgap=\dimen144
 \bibindent=\dimen145
 \@tempcntc=\count192
-) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen146
+\Gin@req@width=\dimen147
+)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/mathptmx.sty
+Package: mathptmx 2005/04/12 PSNFSS-v9.2a Times w/ Math, improved (SPQR, WaS) 
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+\symbold=\mathgroup4
+\symitalic=\mathgroup5
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
+LaTeX Info: Redefining \hbar on input line 50.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2020/01/20 v2.17e AMS math features
 \@mathmargin=\skip49
 
@@ -82,12 +153,12 @@ Package: amstext 2000/06/29 v2.01 AMS text
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks16
-\ex@=\dimen146
+\@emptytoks=\toks17
+\ex@=\dimen148
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen147
+\pmbraise@=\dimen149
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
@@ -104,7 +175,7 @@ LaTeX Info: Redefining \dots on input line 489.
 LaTeX Info: Redefining \cdots on input line 610.
 \Mathstrutbox@=\box48
 \strutbox@=\box49
-\big@size=\dimen148
+\big@size=\dimen150
 LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
 \macc@depth=\count198
@@ -112,21 +183,21 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
 \dotsspace@=\muskip16
 \c@parentequation=\count266
 \dspbrk@lvl=\count267
-\tag@help=\toks17
+\tag@help=\toks18
 \row@=\count268
 \column@=\count269
 \maxfields@=\count270
-\andhelp@=\toks18
-\eqnshift@=\dimen149
-\alignsep@=\dimen150
-\tagshift@=\dimen151
-\tagwidth@=\dimen152
-\totwidth@=\dimen153
-\lineht@=\dimen154
-\@envbody=\toks19
+\andhelp@=\toks19
+\eqnshift@=\dimen151
+\alignsep@=\dimen152
+\tagshift@=\dimen153
+\tagwidth@=\dimen154
+\totwidth@=\dimen155
+\lineht@=\dimen156
+\@envbody=\toks20
 \multlinegap=\skip50
 \multlinetaggap=\skip51
-\mathdisplay@stack=\toks20
+\mathdisplay@stack=\toks21
 LaTeX Info: Redefining \[ on input line 2859.
 LaTeX Info: Redefining \] on input line 2860.
 )
@@ -135,9 +206,8 @@ Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\symAMSa=\mathgroup4
-\symAMSb=\mathgroup5
-LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+\symAMSa=\mathgroup6
+\symAMSb=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
@@ -146,53 +216,58 @@ Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
 Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
-\col@sep=\dimen155
+\col@sep=\dimen157
 \ar@mcellbox=\box50
-\extrarowheight=\dimen156
-\NC@list=\toks21
+\extrarowheight=\dimen158
+\NC@list=\toks22
 \extratabsurround=\skip52
 \backup@length=\skip53
 \ar@cellbox=\box51
 )
-\TX@col@width=\dimen157
-\TX@old@table=\dimen158
-\TX@old@col=\dimen159
-\TX@target=\dimen160
-\TX@delta=\dimen161
+\TX@col@width=\dimen159
+\TX@old@table=\dimen160
+\TX@old@col=\dimen161
+\TX@target=\dimen162
+\TX@delta=\dimen163
 \TX@cols=\count271
-\TX@ftn=\toks22
+\TX@ftn=\toks23
 )
 (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2018/08/11 v1.3c Input encoding file
-\inpenc@prehook=\toks23
-\inpenc@posthook=\toks24
+\inpenc@prehook=\toks24
+\inpenc@posthook=\toks25
 )
 (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
-)
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 11
+2.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+))
 (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen162
-\lightrulewidth=\dimen163
-\cmidrulewidth=\dimen164
-\belowrulesep=\dimen165
-\belowbottomsep=\dimen166
-\aboverulesep=\dimen167
-\abovetopsep=\dimen168
-\cmidrulesep=\dimen169
-\cmidrulekern=\dimen170
-\defaultaddspace=\dimen171
+\heavyrulewidth=\dimen164
+\lightrulewidth=\dimen165
+\cmidrulewidth=\dimen166
+\belowrulesep=\dimen167
+\belowbottomsep=\dimen168
+\aboverulesep=\dimen169
+\abovetopsep=\dimen170
+\cmidrulesep=\dimen171
+\cmidrulekern=\dimen172
+\defaultaddspace=\dimen173
 \@cmidla=\count272
 \@cmidlb=\count273
-\@aboverulesep=\dimen172
-\@belowrulesep=\dimen173
+\@aboverulesep=\dimen174
+\@belowrulesep=\dimen175
 \@thisruleclass=\count274
 \@lastruleclass=\count275
-\@thisrulewidth=\dimen174
+\@thisrulewidth=\dimen176
 )
 (/usr/share/texlive/texmf-dist/tex/latex/units/nicefrac.sty
 Package: nicefrac 1998/08/04 v0.9b Nice fractions
@@ -205,15 +280,10 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2019/11/18 v2.7d Micro-typographical refinements (RS)
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks25
-)
 \MT@toks=\toks26
 \MT@count=\count276
 LaTeX Info: Redefining \textls on input line 790.
-\MT@outer@kern=\dimen175
+\MT@outer@kern=\dimen177
 LaTeX Info: Redefining \textmicrotypecontext on input line 1354.
 \MT@listname@count=\count277
 
@@ -229,26 +299,6 @@ Package microtype Info: Loading configuration file microtype.cfg.
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg
 File: microtype.cfg 2019/11/18 v2.7d microtype main configuration file (RS)
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
-)
-Package graphics Info: Driver file: pdftex.def on input line 105.
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
-))
-\Gin@req@height=\dimen176
-\Gin@req@width=\dimen177
-)
 (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count278
@@ -869,20 +919,21 @@ LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
 )
+(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
 
-LaTeX Warning: File `example.eps' already exists on the system.
-               Not generating it from this source.
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/fix-cm.sty
-Package: fix-cm 2015/01/14 v1.1t fixes to LaTeX
+Package natbib Warning: The `cite' package should not be used
+(natbib)                with natbib. Use option `sort' instead.
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def
-File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
-LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
-))
-(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+\bibhang=\skip69
+\bibsep=\skip70
+LaTeX Info: Redefining \cite on input line 694.
+LaTeX Info: Redefining \citenum on input line 708.
+\c@NAT@ctr=\count342
+) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count342
+\l__kernel_color_stack_int=\count343
 \l__pdf_internal_box=\box113
 )
 (./PIDBasedCoaching.aux
@@ -901,64 +952,72 @@ LaTeX Warning: Label `sub@fig:ip_pid_actions' multiply defined.
 )
 \openout1 = `PIDBasedCoaching.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
 
 Unknown journal: specify \journalname{<name of your journal>} in preambel
 
-LaTeX Info: Redefining \microtypecontext on input line 110.
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count344
+\scratchdimen=\dimen316
+\scratchbox=\box114
+\nofMPsegments=\count345
+\nofMParguments=\count346
+\everyMPshowfont=\toks50
+\MPscratchCnt=\count347
+\MPscratchDim=\dimen317
+\MPnumerator=\count348
+\makeMPintoPDFobject=\count349
+\everyMPtoPDFconversion=\toks51
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/grfext/grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+LaTeX Info: Redefining \microtypecontext on input line 101.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `basictext'.
-LaTeX Info: Redefining \showhyphens on input line 110.
+LaTeX Info: Redefining \showhyphens on input line 101.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
-File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
-(RS)
-)
-(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count343
-\scratchdimen=\dimen316
-\scratchbox=\box114
-\nofMPsegments=\count344
-\nofMParguments=\count345
-\everyMPshowfont=\toks50
-\MPscratchCnt=\count346
-\MPscratchDim=\dimen317
-\MPnumerator=\count347
-\makeMPintoPDFobject=\count348
-\everyMPtoPDFconversion=\toks51
-) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
-Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-85.
 
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-ptm.cfg
+File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
+)
 \AtBeginShipoutBox=\box115
-Package hyperref Info: Link coloring OFF on input line 110.
+Package hyperref Info: Link coloring OFF on input line 101.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -969,11 +1028,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count349
+\c@section@level=\count350
 )
-LaTeX Info: Redefining \ref on input line 110.
-LaTeX Info: Redefining \pageref on input line 110.
-LaTeX Info: Redefining \nameref on input line 110.
+LaTeX Info: Redefining \ref on input line 101.
+LaTeX Info: Redefining \pageref on input line 101.
+LaTeX Info: Redefining \nameref on input line 101.
 
 (./PIDBasedCoaching.out) (./PIDBasedCoaching.out)
 \@outlinefile=\write4
@@ -984,175 +1043,152 @@ Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
 ABD: EveryShipout initializing macros
-\c@lstlisting=\count350
+\c@lstlisting=\count351
 
-Runaway argument?
-{Zongqiang Pang, Yang Yang, Liping Bai \at Nanjing Unversity of Posts\ETC.
-! Paragraph ended before \institute was complete.
-<to be read again> 
-                   \par 
-l.132 
-      
-? 
-! Too many }'s.
-l.133 }
-       
-? 
 SVJour3 warning: Missing \journalname
-SVJour3 warning: Missing \institute
-LaTeX Font Info:    Trying to load font information for U+msa on input line 140
-.
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+
+Package mathptmx Warning: There are no bold math fonts on input line 131.
+
+LaTeX Font Info:    Calculating math sizes for size <9.5> on input line 131.
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
+ 131.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `ztmcm' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
+ 131.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlztmcm.fd
+File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
+ 131.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsztmcm.fd
+File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
+ 131.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxztmcm.fd
+File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 1
+31.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9.5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 131.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.03004> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 131.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5.70006> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 131.
+
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 140
-.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-Underfull \vbox (badness 1502) has occurred while \output is active []
-
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 131.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 131.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 131.
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (4.35583pt too wide) in paragraph at lines 152--153
-\T1/cmr/m/n/10 (-20) et al.(2020)Peng, Coumans, Zhang, Lee, Tan, and Levine[]][
-[]Paine et al.(2018)Paine,
- []
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 175.
 
-
-Overfull \hbox (39.9314pt too wide) in paragraph at lines 156--157
-[]\T1/cmr/m/n/10 (-20) Previous re-searches[[]Xie et al.(2018)Xie, Wang, Rosa, 
-Markham, and Trigoni[]][[]Carlucho
- []
-
-
-Underfull \vbox (badness 5008) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [2]
-<Control.png, id=104, 1101.11375pt x 646.415pt>
-File: Control.png Graphic file (type png)
-<use Control.png>
-Package pdftex.def Info: Control.png  used on input line 209.
-(pdftex.def)             Requested size: 338.0pt x 198.42374pt.
-
-[3] [4 <./Control.png>] [5]
-<ip_PID.png, id=137, 462.528pt x 346.896pt>
+[3]
+<ip_PID.png, id=99, 462.528pt x 346.896pt>
 File: ip_PID.png Graphic file (type png)
 <use ip_PID.png>
-Package pdftex.def Info: ip_PID.png  used on input line 249.
-(pdftex.def)             Requested size: 169.0pt x 126.75096pt.
-<ip_PID_actions.png, id=138, 462.528pt x 346.896pt>
+Package pdftex.def Info: ip_PID.png  used on input line 229.
+(pdftex.def)             Requested size: 138.79788pt x 104.09605pt.
+<ip_PID_actions.png, id=101, 462.528pt x 346.896pt>
 File: ip_PID_actions.png Graphic file (type png)
 <use ip_PID_actions.png>
-Package pdftex.def Info: ip_PID_actions.png  used on input line 254.
-(pdftex.def)             Requested size: 169.0pt x 126.75096pt.
-<ip.png, id=139, 939.51pt x 505.89pt>
+Package pdftex.def Info: ip_PID_actions.png  used on input line 234.
+(pdftex.def)             Requested size: 138.79788pt x 104.09605pt.
+<ip.png, id=107, 939.51pt x 505.89pt>
 File: ip.png Graphic file (type png)
 <use ip.png>
-Package pdftex.def Info: ip.png  used on input line 264.
-(pdftex.def)             Requested size: 338.0pt x 181.99675pt.
-<ip_RL.png, id=142, 462.528pt x 346.896pt>
+Package pdftex.def Info: ip.png  used on input line 249.
+(pdftex.def)             Requested size: 277.60106pt x 149.47554pt.
+ [4]
+<ip_RL.png, id=121, 462.528pt x 346.896pt>
 File: ip_RL.png Graphic file (type png)
 <use ip_RL.png>
-Package pdftex.def Info: ip_RL.png  used on input line 276.
-(pdftex.def)             Requested size: 169.0pt x 126.75096pt.
-<ip_RL_actions.png, id=143, 462.528pt x 346.896pt>
+Package pdftex.def Info: ip_RL.png  used on input line 260.
+(pdftex.def)             Requested size: 138.79788pt x 104.09605pt.
+<ip_RL_actions.png, id=122, 462.528pt x 346.896pt>
 File: ip_RL_actions.png Graphic file (type png)
 <use ip_RL_actions.png>
-Package pdftex.def Info: ip_RL_actions.png  used on input line 281.
-(pdftex.def)             Requested size: 169.0pt x 126.75096pt.
- [6] [7 <./ip_PID.png> <./ip_PID_actions.png> <./ip.png>]
-<double_PID.png, id=164, 462.528pt x 346.896pt>
+Package pdftex.def Info: ip_RL_actions.png  used on input line 265.
+(pdftex.def)             Requested size: 138.79788pt x 104.09605pt.
+ [5 <./ip_PID.png> <./ip_PID_actions.png> <./ip.png>]
+<double_PID.png, id=134, 462.528pt x 346.896pt>
 File: double_PID.png Graphic file (type png)
 <use double_PID.png>
-Package pdftex.def Info: double_PID.png  used on input line 297.
-(pdftex.def)             Requested size: 169.0pt x 126.75096pt.
-<double_PID_actions.png, id=165, 462.528pt x 346.896pt>
+Package pdftex.def Info: double_PID.png  used on input line 279.
+(pdftex.def)             Requested size: 138.79788pt x 104.09605pt.
+<double_PID_actions.png, id=135, 462.528pt x 346.896pt>
 File: double_PID_actions.png Graphic file (type png)
 <use double_PID_actions.png>
-Package pdftex.def Info: double_PID_actions.png  used on input line 301.
-(pdftex.def)             Requested size: 169.0pt x 126.75096pt.
- [8 <./ip_RL.png> <./ip_RL_actions.png> <./double_PID.png> <./double_PID_action
-s.png>]
-<double.png, id=176, 939.51pt x 505.89pt>
+Package pdftex.def Info: double_PID_actions.png  used on input line 283.
+(pdftex.def)             Requested size: 138.79788pt x 104.09605pt.
+<double.png, id=138, 939.51pt x 505.89pt>
 File: double.png Graphic file (type png)
 <use double.png>
-Package pdftex.def Info: double.png  used on input line 311.
-(pdftex.def)             Requested size: 338.0pt x 181.99675pt.
-<double_RL.png, id=179, 462.528pt x 346.896pt>
+Package pdftex.def Info: double.png  used on input line 295.
+(pdftex.def)             Requested size: 277.60106pt x 149.47554pt.
+<double_RL.png, id=139, 462.528pt x 346.896pt>
 File: double_RL.png Graphic file (type png)
 <use double_RL.png>
-Package pdftex.def Info: double_RL.png  used on input line 322.
-(pdftex.def)             Requested size: 169.0pt x 126.75096pt.
-<double_RL_actions.png, id=180, 462.528pt x 346.896pt>
+Package pdftex.def Info: double_RL.png  used on input line 303.
+(pdftex.def)             Requested size: 138.79788pt x 104.09605pt.
+<double_RL_actions.png, id=140, 462.528pt x 346.896pt>
 File: double_RL_actions.png Graphic file (type png)
 <use double_RL_actions.png>
-Package pdftex.def Info: double_RL_actions.png  used on input line 326.
-(pdftex.def)             Requested size: 169.0pt x 126.75096pt.
- [9 <./double.png>] (./PIDBasedCoaching.bbl
-Overfull \hbox (323.63826pt too wide) in paragraph at lines 17--21
-[]
- []
+Package pdftex.def Info: double_RL_actions.png  used on input line 307.
+(pdftex.def)             Requested size: 138.79788pt x 104.09605pt.
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--27
-[]
- []
+ [6 <./ip_RL.png> <./ip_RL_actions.png> <./double_PID.png> <./double_PID_action
+s.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Underfull \hbox (badness 1028) in paragraph at lines 24--27
-\T1/cmr/m/n/8 (+20) de Avila Belbute-Peres F, Economon TD, Kolter JZ (2020) Com
--bin-ing dif-fer-
- []
-
-[10 <./double_RL.png> <./double_RL_actions.png>]
-Overfull \hbox (27.68831pt too wide) in paragraph at lines 42--44
-[]
- []
-
-
-Overfull \hbox (140.07753pt too wide) in paragraph at lines 67--71
-[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 74--76
-[]
- []
-
+ [7 <./double.png> <./double_RL.png> <./double_RL_actions.png>] (./PIDBasedCoac
+hing.bbl
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Overfull \hbox (101.00374pt too wide) in paragraph at lines 111--114
-[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 129--131
-[]\T1/cmr/m/n/8 (+20) Peng X, Coumans E,
- []
-
-[11]) [12]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 365.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 365.
+[8]) [9]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 349.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 349.
  (./PIDBasedCoaching.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 365.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 365.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 349.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 349.
 Package rerunfilecheck Info: File `PIDBasedCoaching.out' has not changed.
-(rerunfilecheck)             Checksum: 72B9E73E19B4D4CB12CBBB6C0646B010;219.
+(rerunfilecheck)             Checksum: B1419F622929D93A1F7BE21DF6D27B6E;262.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 365.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 349.
  )
 (\end occurred when \ifx on line 99 was incomplete)
 (\end occurred when \ifx on line 99 was incomplete)
@@ -1245,27 +1281,27 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 365.
 (\end occurred when \ifx on line 74 was incomplete)
 (\end occurred when \ifx on line 74 was incomplete) 
 Here is how much of TeX's memory you used:
- 22801 strings out of 481239
- 412207 string characters out of 5920378
- 697055 words of memory out of 5000000
- 37440 multiletter control sequences out of 15000+600000
- 549670 words of font info for 115 fonts, out of 8000000 for 9000
+ 23364 strings out of 481239
+ 420617 string characters out of 5920378
+ 695891 words of memory out of 5000000
+ 37947 multiletter control sequences out of 15000+600000
+ 589596 words of font info for 202 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,9n,60p,1882b,462s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,9n,60p,1650b,460s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/
-dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmbsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
-0.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/te
-xmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/publ
-ic/cm-super/sfrm0700.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800
-.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/tex
-mf/fonts/type1/public/cm-super/sftt0800.pfb>
-Output written on PIDBasedCoaching.pdf (12 pages, 707387 bytes).
+dvips/cm-super/cm-super-t1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/b
+ase/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sh
+are/texmf/fonts/type1/public/cm-super/sftt0900.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/u
+rw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on PIDBasedCoaching.pdf (9 pages, 536494 bytes).
 PDF statistics:
- 258 PDF objects out of 1000 (max. 8388607)
- 209 compressed objects within 3 object streams
- 58 named destinations out of 1000 (max. 500000)
- 16484 words of extra memory for PDF output out of 17280 (max. 10000000)
+ 226 PDF objects out of 1000 (max. 8388607)
+ 184 compressed objects within 2 object streams
+ 55 named destinations out of 1000 (max. 500000)
+ 27239 words of extra memory for PDF output out of 29859 (max. 10000000)
 
