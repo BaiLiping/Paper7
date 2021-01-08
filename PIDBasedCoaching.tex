@@ -109,11 +109,11 @@ grestore
 %
 \begin{document}
 
-\title{Accelerate Reinforcement Learning with PID Controllers in the Pendulum Simulations%\thanks{Grants or other notes
+\title{PID Controllers Based Coaching%\thanks{Grants or other notes
 %about the article that should go on the front page should be
 %placed here. General acknowledgments should be placed at the end of the article.}
 }
-\subtitle{A Novel Approach for Merging Classic Control with Reinforcement Learning}
+\subtitle{Accelerate Reinforcement Learning with PID Controller in the Pendulum Simulations}
 
 %\titlerunning{Short form of title}        % if too long for running head
 
@@ -204,9 +204,9 @@ In section II, we present the idea of controller-based coaching. In section III,
 
 Reinforcement Learning is the process of cycling between interaction with an environment and refinement of the understanding of that environment. RL agents methodically extract information from experiences, gradually bounding system models, policy distributions, or cost-to-go approximations to maximize the expected rewards along a trajectory, as shown by Figure\ref{fig:rl} which is an adaption of Benjamin Recht's presentation\cite{Recht2018ATO}. 
 
-\begin{figure}[H]
+\begin{figure}
     \centering
-    \includegraphics[width=0.5\textwidth]{Control.png}
+    \includegraphics[width=\textwidth]{Control.png}
     \caption{From Optimization to Learning.}
     \label{fig:rl}
 \end{figure} 
@@ -242,14 +242,14 @@ The observation space of the inverted pendulum environment is: [Cart Position on
 Figure\ref{fig:ip} shows how the PID controller manages the pole angle and its angular velocity. The PID parameters are the following: kp=30,ki=0.01,kd=2.26. While the PID controller tries hard to converge to zero, eventually, there would be too much accumulation on the x-axis, and the equilibrium breaks down. The average score achieved by the PID controller is 240.
 
 
-\begin{figure}[H]
+\begin{figure}
 \centering
-\begin{subfigure}{0.25\textwidth}
+\begin{subfigure}{0.5\textwidth}
   \centering
   \includegraphics[width=\linewidth]{ip_PID.png}
   \label{fig:ip_pid}
 \end{subfigure}%
-\begin{subfigure}{.25\textwidth}
+\begin{subfigure}{.5\textwidth}
   \centering
   \includegraphics[width=\linewidth]{ip_PID_actions.png}
   \label{fig:ip_pid_actions}
@@ -259,9 +259,9 @@ Figure\ref{fig:ip} shows how the PID controller manages the pole angle and its a
 \end{figure}
 
 Based on our observations of the system, we decide to put the boundary between critical and noncritical states on the angular velocity with an absolute value of 0.4. The RL agent is free to explore with the angular velocity with an absolute value smaller than 0.4, but once it goes above this bound, the PID controller will kick in, trying to decrease the velocity back to the 0.4 bound.
-\begin{figure}[H]
+\begin{figure}
      \centering
-      \includegraphics[width=0.5\textwidth]{ip.png}
+      \includegraphics[width=\textwidth]{ip.png}
       \caption{Inverted Pendulum Experiment Result. The lines are the average over 20 episodes, and the shadow indicates the standard deviation over the 20 episodes. The blue line is the training result of RL agent with PID as a coach. The black line is the benchmark of RL agent trained without PID as a coach. }
       \label{fig:ip_result}
 
@@ -269,14 +269,14 @@ Based on our observations of the system, we decide to put the boundary between c
 
 The experiment result is presented by Figure\ref{fig:ip_result}. The black line indicates the agent trained normally, and the blue line indicates the agent trained with a PID coach. A win is set to be with a score greater than 800. It takes the normal method 160 episodes to get five consecutive wins, and it takes the controller-based coaching method 90 episodes to do the same, a 43.8\% increase is observed. As measured by averaging over 20 episodes, it takes the normal method 159 episodes to go beyond 800, and it takes the controller-based coaching method 91 episodes to do the same. A 42.8\% increase is observed. On average, the acceleration brought about by a PID controller, which can only score 240 out of 1000 is 43.3\%\. The agents trained with both methods pass the evaluation, and their respective average scores are presented in the upper left corner. The final performance of the RL agent is shown by Figure\ref{fig:ip_rl}.
 
-\begin{figure}[H]
+\begin{figure}
 \centering
-\begin{subfigure}{0.25\textwidth}
+\begin{subfigure}{0.5\textwidth}
   \centering
   \includegraphics[width=\linewidth]{ip_RL.png}
   \label{fig:ip_pid}
 \end{subfigure}%
-\begin{subfigure}{.25\textwidth}
+\begin{subfigure}{.5\textwidth}
   \centering
   \includegraphics[width=\linewidth]{ip_RL_actions.png}
   \label{fig:ip_pid_actions}
@@ -290,13 +290,13 @@ The inverted double pendulum has observation space of the following: [x position
 
 Figure\ref{fig:double} shows how the PID controller manages the lower pole angle and its angular velocity. The parameters of the PID coach is the following: kp=[-0.5,-0.5], ki=[-0.04,-0.003], kd=[-2.95,-0.56]. The actuator action is computed with the following formula: action=kp[0]*lower angle+ki[0]*integral of lower angle+kd[0]*angular velocity of lower angle+kp[1]*upper angle+ki[1]*integral of upper angle+kd[1]*angular velocity of upper angle. The PID controller functions well until the equilibrium breaks down with too much disposition on the x-axis. The average score achieved by the RL agent is 9319, and the average score achieved by the PID controller is 1107.
 
-\begin{figure}[H]
+\begin{figure}
 \centering
-\begin{subfigure}{0.25\textwidth}
+\begin{subfigure}{0.5\textwidth}
   \centering
   \includegraphics[width=\linewidth]{double_PID.png}
 \end{subfigure}%
-\begin{subfigure}{.25\textwidth}
+\begin{subfigure}{.5\textwidth}
   \centering
   \includegraphics[width=\linewidth]{double_PID_actions.png}
 \end{subfigure}
@@ -306,22 +306,22 @@ Figure\ref{fig:double} shows how the PID controller manages the lower pole angle
 
 Based on our observation of the system, we decided to put the boundary between critical and noncritical states on the lower angle of with an absolute value of 0.2. The RL agent is free to explore with the lower angle with an absolute value smaller than 0.2, but once it goes above this bound, the PID controller will kick in, trying to nudge the lower angle back to the 0.2 bound.
 
-\begin{figure}[H]
+\begin{figure}
      \centering
-      \includegraphics[width=0.5\textwidth]{double.png}
+      \includegraphics[width=\textwidth]{double.png}
       \caption{Double Inverted Pendulum Coaching Result.}
       \label{fig:double_result}
 \end{figure}
 
 The experiment result is presented by Figure\ref{fig:double_result}. The black line indicates the agent trained normally, and the blue line indicates the agent trained with a PID coach. A win is set to be with a score greater than 7000. It takes the normal method 1909 episodes to get five consecutive wins, and it takes controller-based coaching method 1024 episodes to do the same. An increase of 46.3\% is observed. As measured by averaging over 100 episodes, it takes normal method 2031 episodes to go beyond 7000, and it takes controller-based coaching method 1391 episodes to do the same. An increase of 31.5\% is observed. The discrepancy between the two measurements is that the agent trained with the PID controller has a higher variance in its performance. On average, the acceleration brought about by the PID controller is 38.9\%. The agents trained with both methods pass the evaluation, and their respective average scores are presented in the upper left corner. The final performance of the RL agent is shown by Figure\ref{fig:double_rl}.
 
-\begin{figure}[H]
+\begin{figure}
 \centering
-\begin{subfigure}{0.25\textwidth}
+\begin{subfigure}{0.5\textwidth}
   \centering
   \includegraphics[width=\linewidth]{double_RL.png}
 \end{subfigure}%
-\begin{subfigure}{.25\textwidth}
+\begin{subfigure}{.5\textwidth}
   \centering
   \includegraphics[width=\linewidth]{double_RL_actions.png}
 \end{subfigure}
@@ -338,7 +338,7 @@ Next step, we plan to implement the controller-based coaching idea to the deep d
 
 We believe our research opens the door to a rich reservoir of potential research on coaching RL agents with controllers. Human achieves superhuman feats not because of talent, but because of the meticulously engineered coaching tactics. Current research in RL focuses solely on the "athlete" side of the equation, i.e., building an efficient RL agent, but we feel "coach" is as important, if not more so.  For instance, a tennis coach will challenge athletes, pushing them to experience situations that are hard to encounter. A controller can function as a coach and pushes the RL agent into states that are hard to access. Controller-based coaching can be an effective way to merge controllers with RL agents. 
 
-\bibliographystyle{spbasic}
+\bibliographystyle{spmpsci}
 \bibliography{Bibliography}
 
 % BibTeX users please use one of

@@ -1,0 +1,155 @@
+\begin{thebibliography}{29}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{{#1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{DOI~\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{DOI~\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem[{Achiam(2018)}]{SpinningUp2018}
+Achiam J (2018) {Spinning Up in Deep Reinforcement Learning}
+
+\bibitem[{Andrychowicz et~al.(2020)Andrychowicz, Baker, Chociej,
+  J{\'o}zefowicz, McGrew, Pachocki, Petron, Plappert, Powell, Ray, Schneider,
+  Sidor, Tobin, Welinder, Weng, and Zaremba}]{Andrychowicz2020LearningDI}
+Andrychowicz OM, Baker B, Chociej M, J{\'o}zefowicz R, McGrew B, Pachocki JW,
+  Petron A, Plappert M, Powell G, Ray A, Schneider J, Sidor S, Tobin J,
+  Welinder P, Weng L, Zaremba W (2020) Learning dexterous in-hand manipulation.
+  The International Journal of Robotics Research 39:20 -- 3
+
+\bibitem[{de~Avila Belbute-Peres et~al.(2020)de~Avila Belbute-Peres, Economon,
+  and Kolter}]{BelbutePeres2020CombiningDP}
+de~Avila Belbute-Peres F, Economon TD, Kolter JZ (2020) Combining
+  differentiable pde solvers and graph neural networks for fluid flow
+  prediction. ArXiv abs/2007.04439
+
+\bibitem[{Bai et~al.(2019)Bai, Kolter, and Koltun}]{Bai2019DeepEM}
+Bai S, Kolter JZ, Koltun V (2019) Deep equilibrium models. ArXiv abs/1909.01377
+
+\bibitem[{Bertsekas and Tsitsiklis(1996)}]{Bertsekas1996NeuroDynamicP}
+Bertsekas D, Tsitsiklis J (1996) Neuro-dynamic programming. In: Encyclopedia of
+  Machine Learning
+
+\bibitem[{Betancourt et~al.(2018)Betancourt, Jordan, and
+  Wilson}]{Betancourt2018OnSO}
+Betancourt M, Jordan MI, Wilson A (2018) On symplectic optimization. arXiv:
+  Computation
+
+\bibitem[{Brockman et~al.(2016)Brockman, Cheung, Pettersson, Schneider,
+  Schulman, Tang, and Zaremba}]{Brockman2016OpenAIG}
+Brockman G, Cheung V, Pettersson L, Schneider J, Schulman J, Tang J, Zaremba W
+  (2016) Openai gym. ArXiv abs/1606.01540
+
+\bibitem[{Carlucho et~al.(2017)Carlucho, Paula, Villar, and
+  Acosta}]{Carlucho2017IncrementalQS}
+Carlucho I, Paula MD, Villar SA, Acosta GG (2017) Incremental q-learning
+  strategy for adaptive pid control of mobile robots. Expert Syst Appl
+  80:183--199
+
+\bibitem[{Dupont et~al.(2019)Dupont, Doucet, and Teh}]{Dupont2019AugmentedNO}
+Dupont E, Doucet A, Teh Y (2019) Augmented neural odes. In: NeurIPS
+
+\bibitem[{Han et~al.(2020)Han, Zhang, Wang, and Pan}]{Han2020ActorCriticRL}
+Han M, Zhang L, Wang J, Pan W (2020) Actor-critic reinforcement learning for
+  control with stability guarantee. IEEE Robotics and Automation Letters
+  5:6217--6224
+
+\bibitem[{Hewing et~al.(2020)Hewing, Wabersich, Menner, and
+  Zeilinger}]{Hewing2020LearningBasedMP}
+Hewing L, Wabersich KP, Menner M, Zeilinger MN (2020) Learning-based model
+  predictive control: Toward safe learning in control
+
+\bibitem[{Kalashnikov et~al.(2018)Kalashnikov, Irpan, Pastor, Ibarz, Herzog,
+  Jang, Quillen, Holly, Kalakrishnan, Vanhoucke, and
+  Levine}]{Kalashnikov2018QTOptSD}
+Kalashnikov D, Irpan A, Pastor P, Ibarz J, Herzog A, Jang E, Quillen D, Holly
+  E, Kalakrishnan M, Vanhoucke V, Levine S (2018) Qt-opt: Scalable deep
+  reinforcement learning for vision-based robotic manipulation. ArXiv
+  abs/1806.10293
+
+\bibitem[{Kaufmann et~al.(2020)Kaufmann, Loquercio, Ranftl, M{\"u}ller, Koltun,
+  and Scaramuzza}]{Kaufmann2020DeepDA}
+Kaufmann E, Loquercio A, Ranftl R, M{\"u}ller M, Koltun V, Scaramuzza D (2020)
+  Deep drone acrobatics. ArXiv abs/2006.05768
+
+\bibitem[{Knox and Stone(2009)}]{Knox2009InteractivelySA}
+Knox WB, Stone P (2009) Interactively shaping agents via human reinforcement:
+  the tamer framework. In: K-CAP '09
+
+\bibitem[{Knox and Stone(2010)}]{Knox2010CombiningMF}
+Knox WB, Stone P (2010) Combining manual feedback with subsequent mdp reward
+  signals for reinforcement learning. In: AAMAS
+
+\bibitem[{Kuhnle et~al.(2017)Kuhnle, Schaarschmidt, and Fricke}]{tensorforce}
+Kuhnle A, Schaarschmidt M, Fricke K (2017) Tensorforce: a tensorflow library
+  for applied reinforcement learning. Web page,
+  \urlprefix\url{https://github.com/tensorforce/tensorforce}
+
+\bibitem[{Lee et~al.(2020)Lee, Hwangbo, Wellhausen, Koltun, and
+  Hutter}]{Lee2020LearningQL}
+Lee J, Hwangbo J, Wellhausen L, Koltun V, Hutter M (2020) Learning quadrupedal
+  locomotion over challenging terrain. Science Robotics 5
+
+\bibitem[{Lusch et~al.(2018)Lusch, Kutz, and Brunton}]{Lusch2018DeepLF}
+Lusch B, Kutz JN, Brunton S (2018) Deep learning for universal linear
+  embeddings of nonlinear dynamics. Nature Communications 9
+
+\bibitem[{Mohan et~al.(2020)Mohan, Lubbers, Livescu, and
+  Chertkov}]{Mohan2020EmbeddingHP}
+Mohan A, Lubbers N, Livescu D, Chertkov M (2020) Embedding hard physical
+  constraints in neural network coarse-graining of 3d turbulence. arXiv:
+  Computational Physics
+
+\bibitem[{Nachum and Dai(2020)}]{Nachum2020ReinforcementLV}
+Nachum O, Dai B (2020) Reinforcement learning via fenchel-rockafellar duality.
+  ArXiv abs/2001.01866
+
+\bibitem[{Paine et~al.(2018)Paine, Colmenarejo, Wang, Reed, Aytar, Pfaff,
+  Hoffman, Barth-Maron, Cabi, Budden, and Freitas}]{Paine2018OneShotHI}
+Paine T, Colmenarejo SG, Wang Z, Reed S, Aytar Y, Pfaff T, Hoffman MW,
+  Barth-Maron G, Cabi S, Budden D, Freitas ND (2018) One-shot high-fidelity
+  imitation: Training large-scale deep nets with rl. ArXiv abs/1810.05017
+
+\bibitem[{Pavse et~al.(2020)Pavse, Torabi, Hanna, Warnell, and
+  Stone}]{Pavse2020RIDMRI}
+Pavse BS, Torabi F, Hanna JP, Warnell G, Stone P (2020) Ridm: Reinforced
+  inverse dynamics modeling for learning from a single observed demonstration.
+  IEEE Robotics and Automation Letters 5:6262--6269
+
+\bibitem[{Peng et~al.(2018)Peng, Abbeel, Levine, and
+  Panne}]{Peng2018DeepMimicED}
+Peng X, Abbeel P, Levine S, Panne MVD (2018) Deepmimic: Example-guided deep
+  reinforcement learning of physics-based character skills. ACM Trans Graph
+  37:143:1--143:14
+
+\bibitem[{Peng et~al.(2020)Peng, Coumans, Zhang, Lee, Tan, and
+  Levine}]{Peng2020LearningAR}
+Peng X, Coumans E, Zhang T, Lee T, Tan J, Levine S (2020) Learning agile
+  robotic locomotion skills by imitating animals. ArXiv abs/2004.00784
+
+\bibitem[{Recht(2018)}]{Recht2018ATO}
+Recht B (2018) A tour of reinforcement learning: The view from continuous
+  control. ArXiv abs/1806.09460
+
+\bibitem[{Sutton and Barto(1998)}]{Sutton1998IntroductionTR}
+Sutton R, Barto A (1998) Introduction to reinforcement learning
+
+\bibitem[{{Todorov} et~al.(2012){Todorov}, {Erez}, and {Tassa}}]{6386109}
+{Todorov} E, {Erez} T, {Tassa} Y (2012) Mujoco: A physics engine for
+  model-based control. In: 2012 IEEE/RSJ International Conference on
+  Intelligent Robots and Systems, pp 5026--5033,
+  \doi{10.1109/IROS.2012.6386109}
+
+\bibitem[{Weinan(2017)}]{Weinan2017APO}
+Weinan E (2017) A proposal on machine learning via dynamical systems
+
+\bibitem[{Xie et~al.(2018)Xie, Wang, Rosa, Markham, and
+  Trigoni}]{Xie2018LearningWT}
+Xie L, Wang S, Rosa S, Markham A, Trigoni A (2018) Learning with training
+  wheels: Speeding up training with a simple controller for deep reinforcement
+  learning. 2018 IEEE International Conference on Robotics and Automation
+  (ICRA) pp 6276--6283
+
+\end{thebibliography}

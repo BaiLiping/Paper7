@@ -1,4 +1,21 @@
 \relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
+\HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
+\global\let\oldcontentsline\contentsline
+\gdef\contentsline#1#2#3#4{\oldcontentsline{#1}{#2}{#3}}
+\global\let\oldnewlabel\newlabel
+\gdef\newlabel#1#2{\newlabelxx{#1}#2}
+\gdef\newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
+\AtEndDocument{\ifx\hyper@anchor\@undefined
+\let\contentsline\oldcontentsline
+\let\newlabel\oldnewlabel
+\fi}
+\fi}
+\global\let\hyper@last\relax 
+\gdef\HyperFirstAtBeginDocument#1{#1}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
 \citation{Andrychowicz2020LearningDI}
 \citation{Kalashnikov2018QTOptSD}
 \citation{Lee2020LearningQL}
@@ -21,16 +38,74 @@
 \citation{Xie2018LearningWT}
 \citation{Carlucho2017IncrementalQS}
 \citation{Pavse2020RIDMRI}
-\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{2}{section.1}\protected@file@percent }
 \citation{Recht2018ATO}
 \citation{Sutton1998IntroductionTR}
-\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Performance of PID controllers, as indicated by the average score over 10 trials. The full score of each environment is determined by the maxium episode steps, which is set to be 1000 for both inverted pendulum and inverted double pendulum simulations. Each step with a non-terminal step would be rewarded with 1 point in the inverted pendulum simuation and about 10 points in the inverted double pendulum simualation, depending on the velocity along x-axis.}}{4}\protected@file@percent }
-\newlabel{score_compare}{{1}{4}}
-\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Comparison Between Agents Trained With and Without PID Controller Coaching. Even though the PID controllers are less capable than the eventual RL agent, they are still useful and can accelerate the RL agent training. There two measures we used to gauge training acceleration. The first is five consecutive wins, and the second is the scoring average. The "win" is a predetermined benchmark. }}{4}\protected@file@percent }
-\newlabel{episode_compare}{{2}{4}}
-\@writefile{toc}{\contentsline {section}{\numberline {2}PID Controller Based Coaching To RL Agent}{4}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Performance of PID controllers, as indicated by the average score over 10 trials. The full score of each environment is determined by the maxium episode steps, which is set to be 1000 for both inverted pendulum and inverted double pendulum simulations. Each step with a non-terminal step would be rewarded with 1 point in the inverted pendulum simuation and about 10 points in the inverted double pendulum simualation, depending on the velocity along x-axis.\relax }}{3}{table.1}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{score_compare}{{1}{3}{Performance of PID controllers, as indicated by the average score over 10 trials. The full score of each environment is determined by the maxium episode steps, which is set to be 1000 for both inverted pendulum and inverted double pendulum simulations. Each step with a non-terminal step would be rewarded with 1 point in the inverted pendulum simuation and about 10 points in the inverted double pendulum simualation, depending on the velocity along x-axis.\relax }{table.1}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Comparison Between Agents Trained With and Without PID Controller Coaching. Even though the PID controllers are less capable than the eventual RL agent, they are still useful and can accelerate the RL agent training. There two measures we used to gauge training acceleration. The first is five consecutive wins, and the second is the scoring average. The "win" is a predetermined benchmark. \relax }}{3}{table.2}\protected@file@percent }
+\newlabel{episode_compare}{{2}{3}{Comparison Between Agents Trained With and Without PID Controller Coaching. Even though the PID controllers are less capable than the eventual RL agent, they are still useful and can accelerate the RL agent training. There two measures we used to gauge training acceleration. The first is five consecutive wins, and the second is the scoring average. The "win" is a predetermined benchmark. \relax }{table.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}PID Controller Based Coaching To RL Agent}{3}{section.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces From Optimization to Learning.\relax }}{4}{figure.caption.1}\protected@file@percent }
+\newlabel{fig:rl}{{1}{4}{From Optimization to Learning.\relax }{figure.caption.1}{}}
 \citation{6386109}
 \citation{Brockman2016OpenAIG}
-\@writefile{toc}{\contentsline {section}{\numberline {3}Experiment Setup}{5}\protected@file@percent }
 \citation{tensorforce}
 \citation{SpinningUp2018}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Experiment Setup}{5}{section.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Inveretd Pendulum}{6}{subsection.3.1}\protected@file@percent }
+\newlabel{fig:ip_pid}{{\caption@xref {fig:ip_pid}{ on input line 250}}{7}{Inveretd Pendulum}{figure.caption.2}{}}
+\newlabel{sub@fig:ip_pid}{{}{7}{Inveretd Pendulum}{figure.caption.2}{}}
+\newlabel{fig:ip_pid_actions}{{\caption@xref {fig:ip_pid_actions}{ on input line 255}}{7}{Inveretd Pendulum}{figure.caption.2}{}}
+\newlabel{sub@fig:ip_pid_actions}{{}{7}{Inveretd Pendulum}{figure.caption.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Inverted Pendulum system controlled by the PID coach. The left plot is the angle and angular velocity against steps, and the right plot is the action against steps. The maximum episode steps are 1000 and each step without termination is scored 1 point. The average score achieved by the PID controller is 240 out of 1000.\relax }}{7}{figure.caption.2}\protected@file@percent }
+\newlabel{fig:ip}{{2}{7}{Inverted Pendulum system controlled by the PID coach. The left plot is the angle and angular velocity against steps, and the right plot is the action against steps. The maximum episode steps are 1000 and each step without termination is scored 1 point. The average score achieved by the PID controller is 240 out of 1000.\relax }{figure.caption.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Inverted Pendulum Experiment Result. The lines are the average over 20 episodes, and the shadow indicates the standard deviation over the 20 episodes. The blue line is the training result of RL agent with PID as a coach. The black line is the benchmark of RL agent trained without PID as a coach. \relax }}{7}{figure.caption.3}\protected@file@percent }
+\newlabel{fig:ip_result}{{3}{7}{Inverted Pendulum Experiment Result. The lines are the average over 20 episodes, and the shadow indicates the standard deviation over the 20 episodes. The blue line is the training result of RL agent with PID as a coach. The black line is the benchmark of RL agent trained without PID as a coach. \relax }{figure.caption.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Inverted Double Pendulum}{7}{subsection.3.2}\protected@file@percent }
+\newlabel{fig:ip_pid}{{\caption@xref {fig:ip_pid}{ on input line 277}}{8}{Inveretd Pendulum}{figure.caption.4}{}}
+\newlabel{sub@fig:ip_pid}{{}{8}{Inveretd Pendulum}{figure.caption.4}{}}
+\newlabel{fig:ip_pid_actions}{{\caption@xref {fig:ip_pid_actions}{ on input line 282}}{8}{Inveretd Pendulum}{figure.caption.4}{}}
+\newlabel{sub@fig:ip_pid_actions}{{}{8}{Inveretd Pendulum}{figure.caption.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Inverted Pendulum system controlled by the RL agent. The left plot is the angle and angular velocity against steps, and the right plot is the action against steps. The average score achieved by the RL agent is 1000 out of 1000.\relax }}{8}{figure.caption.4}\protected@file@percent }
+\newlabel{fig:ip_rl}{{4}{8}{Inverted Pendulum system controlled by the RL agent. The left plot is the angle and angular velocity against steps, and the right plot is the action against steps. The average score achieved by the RL agent is 1000 out of 1000.\relax }{figure.caption.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Inverted Double Pendulum system controlled the PID coach. The left plot is the angle and angular velocity against steps, and the right plot is the action against steps. The maximum episode steps are 1000 and each step without termination is scored at around 10 points, based on velocity on the x axis. The average score achieved by the PID controller is 1107 out of 10000. \relax }}{8}{figure.caption.5}\protected@file@percent }
+\newlabel{fig:double}{{5}{8}{Inverted Double Pendulum system controlled the PID coach. The left plot is the angle and angular velocity against steps, and the right plot is the action against steps. The maximum episode steps are 1000 and each step without termination is scored at around 10 points, based on velocity on the x axis. The average score achieved by the PID controller is 1107 out of 10000. \relax }{figure.caption.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Double Inverted Pendulum Coaching Result.\relax }}{9}{figure.caption.6}\protected@file@percent }
+\newlabel{fig:double_result}{{6}{9}{Double Inverted Pendulum Coaching Result.\relax }{figure.caption.6}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Conclution}{9}{section.4}\protected@file@percent }
+\citation{Kaufmann2020DeepDA}
+\bibstyle{spmpsci}
+\bibdata{Bibliography}
+\bibcite{SpinningUp2018}{Achiam(2018)}
+\bibcite{Andrychowicz2020LearningDI}{Andrychowicz et\nobreakspace  {}al.(2020)Andrychowicz, Baker, Chociej, J{\'o}zefowicz, McGrew, Pachocki, Petron, Plappert, Powell, Ray, Schneider, Sidor, Tobin, Welinder, Weng, and Zaremba}
+\bibcite{BelbutePeres2020CombiningDP}{de\nobreakspace  {}Avila Belbute-Peres et\nobreakspace  {}al.(2020)de\nobreakspace  {}Avila Belbute-Peres, Economon, and Kolter}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Inverted Double Pendulum system controlled the RL agent. The left plot is the angle and angular velocity against steps, and the right plot is the action against steps. The average score achieved by the RL agent is 9319 out of 10000.\relax }}{10}{figure.caption.7}\protected@file@percent }
+\newlabel{fig:double_rl}{{7}{10}{Inverted Double Pendulum system controlled the RL agent. The left plot is the angle and angular velocity against steps, and the right plot is the action against steps. The average score achieved by the RL agent is 9319 out of 10000.\relax }{figure.caption.7}{}}
+\bibcite{Bai2019DeepEM}{Bai et\nobreakspace  {}al.(2019)Bai, Kolter, and Koltun}
+\bibcite{Bertsekas1996NeuroDynamicP}{Bertsekas and Tsitsiklis(1996)}
+\bibcite{Betancourt2018OnSO}{Betancourt et\nobreakspace  {}al.(2018)Betancourt, Jordan, and Wilson}
+\bibcite{Brockman2016OpenAIG}{Brockman et\nobreakspace  {}al.(2016)Brockman, Cheung, Pettersson, Schneider, Schulman, Tang, and Zaremba}
+\bibcite{Carlucho2017IncrementalQS}{Carlucho et\nobreakspace  {}al.(2017)Carlucho, Paula, Villar, and Acosta}
+\bibcite{Dupont2019AugmentedNO}{Dupont et\nobreakspace  {}al.(2019)Dupont, Doucet, and Teh}
+\bibcite{Han2020ActorCriticRL}{Han et\nobreakspace  {}al.(2020)Han, Zhang, Wang, and Pan}
+\bibcite{Hewing2020LearningBasedMP}{Hewing et\nobreakspace  {}al.(2020)Hewing, Wabersich, Menner, and Zeilinger}
+\bibcite{Kalashnikov2018QTOptSD}{Kalashnikov et\nobreakspace  {}al.(2018)Kalashnikov, Irpan, Pastor, Ibarz, Herzog, Jang, Quillen, Holly, Kalakrishnan, Vanhoucke, and Levine}
+\bibcite{Kaufmann2020DeepDA}{Kaufmann et\nobreakspace  {}al.(2020)Kaufmann, Loquercio, Ranftl, M{\"u}ller, Koltun, and Scaramuzza}
+\bibcite{Knox2009InteractivelySA}{Knox and Stone(2009)}
+\bibcite{Knox2010CombiningMF}{Knox and Stone(2010)}
+\bibcite{tensorforce}{Kuhnle et\nobreakspace  {}al.(2017)Kuhnle, Schaarschmidt, and Fricke}
+\bibcite{Lee2020LearningQL}{Lee et\nobreakspace  {}al.(2020)Lee, Hwangbo, Wellhausen, Koltun, and Hutter}
+\bibcite{Lusch2018DeepLF}{Lusch et\nobreakspace  {}al.(2018)Lusch, Kutz, and Brunton}
+\bibcite{Mohan2020EmbeddingHP}{Mohan et\nobreakspace  {}al.(2020)Mohan, Lubbers, Livescu, and Chertkov}
+\bibcite{Nachum2020ReinforcementLV}{Nachum and Dai(2020)}
+\bibcite{Paine2018OneShotHI}{Paine et\nobreakspace  {}al.(2018)Paine, Colmenarejo, Wang, Reed, Aytar, Pfaff, Hoffman, Barth-Maron, Cabi, Budden, and Freitas}
+\bibcite{Pavse2020RIDMRI}{Pavse et\nobreakspace  {}al.(2020)Pavse, Torabi, Hanna, Warnell, and Stone}
+\bibcite{Peng2018DeepMimicED}{Peng et\nobreakspace  {}al.(2018)Peng, Abbeel, Levine, and Panne}
+\bibcite{Peng2020LearningAR}{Peng et\nobreakspace  {}al.(2020)Peng, Coumans, Zhang, Lee, Tan, and Levine}
+\bibcite{Recht2018ATO}{Recht(2018)}
+\bibcite{Sutton1998IntroductionTR}{Sutton and Barto(1998)}
+\bibcite{6386109}{{Todorov} et\nobreakspace  {}al.(2012){Todorov}, {Erez}, and {Tassa}}
+\bibcite{Weinan2017APO}{Weinan(2017)}
+\bibcite{Xie2018LearningWT}{Xie et\nobreakspace  {}al.(2018)Xie, Wang, Rosa, Markham, and Trigoni}
