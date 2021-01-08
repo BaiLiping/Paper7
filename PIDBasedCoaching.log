@@ -1,0 +1,814 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.9.2)  8 JAN 2021 12:10
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**PIDBasedCoaching.tex
+(./PIDBasedCoaching.tex
+LaTeX2e <2020-02-02> patch level 2
+L3 programming layer <2020-02-14>
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \usepackage{
+                amsmath,amssymb,amsfonts}
+? 
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 \usepackage{
+                tabularx}
+? 
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 \usepackage[utf8]{
+                      inputenc} % allow utf-8 input
+? 
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 \usepackage[T1]{
+                    fontenc}    % use 8-bit T1 fonts
+? 
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 \usepackage{
+                url}            % simple URL typesetting
+? 
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 \usepackage{
+                booktabs}       % professional-quality tables
+? 
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7 \usepackage{
+                amsfonts}       % blackboard math symbols
+? 
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 \usepackage{
+                nicefrac}       % compact symbols for 1/2, etc.
+? 
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 \usepackage{
+                microtype}      % microtypography
+? 
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 \usepackage{
+                 graphicx}
+? 
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.11 \usepackage{
+                 float}
+? 
+! Undefined control sequence.
+l.12 \restylefloat
+                  {table}
+? 
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.12 \restylefloat{t
+                    able}
+? 
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 \usepackage{
+                 hyperref}
+? 
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 \usepackage{
+                 multicol}
+? 
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15 \usepackage{
+                 caption}
+? 
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 \usepackage{
+                 subcaption}
+? 
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 \usepackage{
+                 amsmath}
+? 
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 \usepackage{
+                 algorithm}
+? 
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 \usepackage{
+                 algpseudocode}
+? 
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 \usepackage{
+                 tikz}
+? 
+! Undefined control sequence.
+l.21 \usetikzlibrary
+                    {trees}
+? 
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.22 \usepackage{
+                 listings}
+? 
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 \usepackage{
+                 array}
+? 
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24 \usepackage{
+                 colortbl,hhline}
+? 
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 \usepackage{
+                 color}
+? 
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.26 \usepackage{
+                 multirow}
+? 
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 \usepackage{
+                 xcolor}
+? 
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 12--28
+[]
+ []
+
+! Undefined control sequence.
+l.29 \DeclareMathOperator
+                         *{\argmax}{arg\,max}  % in your preamble
+? 
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 \DeclareMathOperator*
+                          {\argmax}{arg\,max}  % in your preamble
+? 
+Missing character: There is no * in font nullfont!
+! Undefined control sequence.
+l.29 \DeclareMathOperator*{\argmax
+                                  }{arg\,max}  % in your preamble
+? 
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no x in font nullfont!
+! Undefined control sequence.
+l.30 \DeclareMathOperator
+                         *{\argmin}{arg\,min}  % in your preamble
+? 
+Missing character: There is no * in font nullfont!
+! Undefined control sequence.
+l.30 \DeclareMathOperator*{\argmin
+                                  }{arg\,min}  % in your preamble
+? 
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 29--31
+[]
+ []
+
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.32 \usepackage{
+                 textcomp}
+? 
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.36 \usepackage{
+                 xcolor,soul,framed} %,caption
+? 
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 \usepackage[noadjust]{
+                           cite}
+? 
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.42 \usepackage[font=scriptsize]{
+                                  caption}
+? 
+! Undefined control sequence.
+l.43 \captionsetup
+                  [figure]{font=scriptsize}
+? 
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.43 \captionsetup[
+                   figure]{font=scriptsize}
+? 
+Missing character: There is no [ in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no e in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 43--44
+[] 
+ []
+
+
+LaTeX Warning: File `example.eps' already exists on the system.
+               Not generating it from this source.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/fix-cm.sty
+Package: fix-cm 2015/01/14 v1.1t fixes to LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
+)) (./svjour3.cls
+Document Class: svjour3 2007/05/08 v3.2 
+LaTeX document class for Springer journals
+Class Springer-SVJour3 Info: extra/valid Springer sub-package (-> *.clo) 
+(Springer-SVJour3)           not found in option list of \documentclass
+(Springer-SVJour3)           - autoactivating "global" style.
+(./svglov3.clo
+File: svglov3.clo 2009/12/18 v3.2 style option for standardised journals
+
+SVJour Class option: svglov3.clo for standardised journals
+)
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 147.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 148.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 149.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 150.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 151.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 152.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 153.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 154.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 155.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 156.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 157.
+\logodepth=\dimen134
+\headerboxheight=\dimen135
+\betweenumberspace=\dimen136
+\aftertext=\dimen137
+\headlineindent=\dimen138
+\c@inst=\count167
+\c@auth=\count168
+\instindent=\dimen139
+\authrun=\box45
+\authorrunning=\toks14
+\titrun=\box46
+\titlerunning=\toks15
+\combirun=\box47
+\c@lastpage=\count169
+\rubricwidth=\dimen140
+\c@section=\count170
+\c@subsection=\count171
+\c@subsubsection=\count172
+\c@paragraph=\count173
+\c@subparagraph=\count174
+\spthmsep=\dimen141
+\c@theorem=\count175
+\c@case=\count176
+\c@conjecture=\count177
+\c@corollary=\count178
+\c@definition=\count179
+\c@example=\count180
+\c@exercise=\count181
+\c@lemma=\count182
+\c@note=\count183
+\c@problem=\count184
+\c@property=\count185
+\c@proposition=\count186
+\c@question=\count187
+\c@solution=\count188
+\c@remark=\count189
+\c@figure=\count190
+\c@table=\count191
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\figcapgap=\dimen142
+\tabcapgap=\dimen143
+\figgap=\dimen144
+\bibindent=\dimen145
+\@tempcntc=\count192
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen146
+\Gin@req@width=\dimen147
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count193
+\l__pdf_internal_box=\box48
+)
+(./PIDBasedCoaching.aux)
+\openout1 = `PIDBasedCoaching.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+
+Unknown journal: specify \journalname{<name of your journal>} in preambel
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count194
+\scratchdimen=\dimen148
+\scratchbox=\box49
+\nofMPsegments=\count195
+\nofMParguments=\count196
+\everyMPshowfont=\toks17
+\MPscratchCnt=\count197
+\MPscratchDim=\dimen149
+\MPnumerator=\count198
+\makeMPintoPDFobject=\count199
+\everyMPtoPDFconversion=\toks18
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Runaway argument?
+{Zongqiang Pang, Yang Yang, Liping Bai \at Nanjing Unversity of Posts\ETC.
+! Paragraph ended before \institute was complete.
+<to be read again> 
+                   \par 
+l.131 
+      
+? 
+! Too many }'s.
+l.132 }
+       
+? 
+SVJour3 warning: Missing \journalname
+SVJour3 warning: Missing \institute
+[1]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 138.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 138.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 138.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 138.
+
+
+SVJour3 Warning: Title too long for running head.
+Please supply a shorter form with \titlerunning prior to \maketitle
+! Undefined control sequence.
+l.141 ...l the code and data can be found at \href
+                                                  {https://github.com/BaiLip...
+
+? 
+
+LaTeX Warning: Citation `Andrychowicz2020LearningDI' on page 2 undefined on inp
+ut line 149.
+
+
+LaTeX Warning: Citation `Kalashnikov2018QTOptSD' on page 2 undefined on input l
+ine 149.
+
+
+LaTeX Warning: Citation `Lee2020LearningQL' on page 2 undefined on input line 1
+49.
+
+
+LaTeX Warning: Citation `Bertsekas1996NeuroDynamicP' on page 2 undefined on inp
+ut line 149.
+
+
+Underfull \vbox (badness 1502) has occurred while \output is active []
+
+ [2{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+
+LaTeX Warning: Citation `Han2020ActorCriticRL' on page 3 undefined on input lin
+e 151.
+
+
+LaTeX Warning: Citation `Weinan2017APO' on page 3 undefined on input line 151.
+
+
+LaTeX Warning: Citation `Dupont2019AugmentedNO' on page 3 undefined on input li
+ne 151.
+
+
+LaTeX Warning: Citation `Betancourt2018OnSO' on page 3 undefined on input line 
+151.
+
+
+LaTeX Warning: Citation `Nachum2020ReinforcementLV' on page 3 undefined on inpu
+t line 151.
+
+
+LaTeX Warning: Citation `Hewing2020LearningBasedMP' on page 3 undefined on inpu
+t line 151.
+
+
+LaTeX Warning: Citation `Mohan2020EmbeddingHP' on page 3 undefined on input lin
+e 151.
+
+
+LaTeX Warning: Citation `Lusch2018DeepLF' on page 3 undefined on input line 151
+.
+
+
+LaTeX Warning: Citation `Bai2019DeepEM' on page 3 undefined on input line 151.
+
+
+LaTeX Warning: Citation `BelbutePeres2020CombiningDP' on page 3 undefined on in
+put line 151.
+
+
+LaTeX Warning: Citation `Knox2009InteractivelySA' on page 3 undefined on input 
+line 151.
+
+
+LaTeX Warning: Citation `Knox2010CombiningMF' on page 3 undefined on input line
+ 151.
+
+
+LaTeX Warning: Citation `Peng2018DeepMimicED' on page 3 undefined on input line
+ 151.
+
+
+LaTeX Warning: Citation `Peng2020LearningAR' on page 3 undefined on input line 
+151.
+
+
+LaTeX Warning: Citation `Paine2018OneShotHI' on page 3 undefined on input line 
+151.
+
+
+LaTeX Warning: Citation `Xie2018LearningWT' on page 3 undefined on input line 1
+55.
+
+
+LaTeX Warning: Citation `Carlucho2017IncrementalQS' on page 3 undefined on inpu
+t line 155.
+
+
+LaTeX Warning: Citation `Pavse2020RIDMRI' on page 3 undefined on input line 155
+.
+
+
+Overfull \hbox (0.51437pt too wide) in paragraph at lines 155--156
+[]\OT1/cmr/m/n/10 Previous re-searches[\OT1/cmr/bx/n/10 ?\OT1/cmr/m/n/10 ][\OT1
+/cmr/bx/n/10 ?\OT1/cmr/m/n/10 ][\OT1/cmr/bx/n/10 ?\OT1/cmr/m/n/10 ] are about m
+ak-ing a func-tion-ing con-troller works
+ []
+
+
+LaTeX Warning: Reference `score_compare' on page 3 undefined on input line 157.
+
+
+
+LaTeX Warning: Reference `episode_compare' on page 3 undefined on input line 15
+7.
+
+! Undefined control sequence.
+l.159 \definecolor
+                  {airforceblue}{rgb}{0.36, 0.54, 0.66}
+? 
+! Undefined control sequence.
+l.160 \definecolor
+                  {beaublue}{rgb}{0.74, 0.83, 0.9}
+? 
+! Undefined control sequence.
+l.168 \rowcolor
+               {airforceblue}
+? 
+! Undefined control sequence.
+<recently read> \rowcolor 
+                          
+l.171 \rowcolor
+               {beaublue}
+? 
+! Undefined control sequence.
+l.184 \rowcolor
+               {airforceblue}
+? 
+! Undefined control sequence.
+<recently read> \rowcolor 
+                          
+l.187 \rowcolor
+               {airforceblue}
+? 
+! Undefined control sequence.
+<recently read> \rowcolor 
+                          
+l.192 \rowcolor
+               {beaublue}
+? 
+! Undefined control sequence.
+<recently read> \rowcolor 
+                          
+l.194 \rowcolor
+               {beaublue}
+? 
+[3]
+
+LaTeX Warning: Reference `fig:rl' on page 4 undefined on input line 204.
+
+
+LaTeX Warning: Citation `Recht2018ATO' on page 4 undefined on input line 204.
+
+
+! LaTeX Error: Unknown float option `H'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.206 \begin{figure}[H]
+                       
+? 
+<Control.png, id=18, 1101.11375pt x 646.415pt>
+File: Control.png Graphic file (type png)
+<use Control.png>
+Package pdftex.def Info: Control.png  used on input line 208.
+(pdftex.def)             Requested size: 169.0pt x 99.20694pt.
+
+LaTeX Warning: Citation `Sutton1998IntroductionTR' on page 4 undefined on input
+ line 213.
+
+[4]
+
+LaTeX Warning: Citation `6386109' on page 5 undefined on input line 229.
+
+
+LaTeX Warning: Citation `Brockman2016OpenAIG' on page 5 undefined on input line
+ 229.
+
+[5]
+
+LaTeX Warning: Citation `tensorforce' on page 6 undefined on input line 233.
+
+
+LaTeX Warning: Citation `SpinningUp2018' on page 6 undefined on input line 233.
+
+
+! Undefined control sequence.
+l.237 ...' code and data can be accessed via \href
+                                                  {https://github.com/BaiLip...
+
+? 
+! Interruption.
+<to be read again> 
+                   {
+l.237 ... code and data can be accessed via \href{
+                                                  https://github.com/BaiLipi...
+
+? 
+! Emergency stop.
+<to be read again> 
+                   {
+l.237 ... code and data can be accessed via \href{
+                                                  https://github.com/BaiLipi...
+End of file on the terminal!
+
+ 
+Here is how much of TeX's memory you used:
+ 1603 strings out of 481239
+ 24799 string characters out of 5920378
+ 263851 words of memory out of 5000000
+ 16894 multiletter control sequences out of 15000+600000
+ 538440 words of font info for 44 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 30i,8n,25p,1864b,322s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!

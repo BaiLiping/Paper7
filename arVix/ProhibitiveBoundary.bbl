@@ -1,0 +1,40 @@
+\begin{thebibliography}{1}
+\providecommand{\url}[1]{#1}
+\csname url@rmstyle\endcsname
+\providecommand{\newblock}{\relax}
+\providecommand{\bibinfo}[2]{#2}
+\providecommand\BIBentrySTDinterwordspacing{\spaceskip=0pt\relax}
+\providecommand\BIBentryALTinterwordstretchfactor{4}
+\providecommand\BIBentryALTinterwordspacing{\spaceskip=\fontdimen2\font plus
+\BIBentryALTinterwordstretchfactor\fontdimen3\font minus
+  \fontdimen4\font\relax}
+\providecommand\BIBforeignlanguage[2]{{%
+\expandafter\ifx\csname l@#1\endcsname\relax
+\typeout{** WARNING: IEEEtran.bst: No hyphenation pattern has been}%
+\typeout{** loaded for the language `#1'. Using the pattern for}%
+\typeout{** the default language instead.}%
+\else
+\language=\csname l@#1\endcsname
+\fi
+#2}}
+
+\bibitem{Bertsekas1996NeuroDynamicP}
+D.~Bertsekas and J.~Tsitsiklis, ``Neuro-dynamic programming,'' in
+  \emph{Encyclopedia of Machine Learning}, 1996.
+
+\bibitem{Levine2018ReinforcementLA}
+S.~Levine, ``Reinforcement learning and control as probabilistic inference:
+  Tutorial and review,'' \emph{ArXiv}, vol. abs/1805.00909, 2018.
+
+\bibitem{Sutton1998IntroductionTR}
+R.~Sutton and A.~Barto, ``Introduction to reinforcement learning,'' 1998.
+
+\bibitem{Kullback1951ONIA}
+S.~Kullback and R.~A. Leibler, ``On information and sufficiency,'' \emph{Annals
+  of Mathematical Statistics}, vol.~22, pp. 79--86, 1951.
+
+\bibitem{Hornik1991ApproximationCO}
+K.~Hornik, ``Approximation capabilities of multilayer feedforward networks,''
+  \emph{Neural Networks}, vol.~4, pp. 251--257, 1991.
+
+\end{thebibliography}
