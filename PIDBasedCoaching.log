@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.9.2)  8 JAN 2021 23:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.9.2)  9 JAN 2021 10:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -7,8 +7,10 @@ entering extended mode
 LaTeX2e <2020-02-02> patch level 2
 L3 programming layer <2020-02-14>
 
-LaTeX Warning: File `example.eps' already exists on the system.
-               Not generating it from this source.
+LaTeX Warning: Writing file `./example.eps'.
+
+\openout15 = `example.eps'.
+
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/fix-cm.sty
 Package: fix-cm 2015/01/14 v1.1t fixes to LaTeX
@@ -1104,91 +1106,81 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 131.
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 175.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [2]
-[3]
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 177.
+ [2] [3]
 <ip_PID.png, id=99, 462.528pt x 346.896pt>
 File: ip_PID.png Graphic file (type png)
 <use ip_PID.png>
-Package pdftex.def Info: ip_PID.png  used on input line 229.
-(pdftex.def)             Requested size: 138.79788pt x 104.09605pt.
+Package pdftex.def Info: ip_PID.png  used on input line 231.
+(pdftex.def)             Requested size: 173.5pt x 130.12802pt.
 <ip_PID_actions.png, id=101, 462.528pt x 346.896pt>
 File: ip_PID_actions.png Graphic file (type png)
 <use ip_PID_actions.png>
-Package pdftex.def Info: ip_PID_actions.png  used on input line 234.
-(pdftex.def)             Requested size: 138.79788pt x 104.09605pt.
-<ip.png, id=107, 939.51pt x 505.89pt>
+Package pdftex.def Info: ip_PID_actions.png  used on input line 236.
+(pdftex.def)             Requested size: 173.5pt x 130.12802pt.
+ [4]
+<ip.png, id=118, 939.51pt x 505.89pt>
 File: ip.png Graphic file (type png)
 <use ip.png>
-Package pdftex.def Info: ip.png  used on input line 249.
+Package pdftex.def Info: ip.png  used on input line 251.
 (pdftex.def)             Requested size: 277.60106pt x 149.47554pt.
- [4]
-<ip_RL.png, id=121, 462.528pt x 346.896pt>
+<ip_RL.png, id=119, 462.528pt x 346.896pt>
 File: ip_RL.png Graphic file (type png)
 <use ip_RL.png>
-Package pdftex.def Info: ip_RL.png  used on input line 260.
+Package pdftex.def Info: ip_RL.png  used on input line 262.
 (pdftex.def)             Requested size: 138.79788pt x 104.09605pt.
-<ip_RL_actions.png, id=122, 462.528pt x 346.896pt>
+<ip_RL_actions.png, id=120, 462.528pt x 346.896pt>
 File: ip_RL_actions.png Graphic file (type png)
 <use ip_RL_actions.png>
-Package pdftex.def Info: ip_RL_actions.png  used on input line 265.
+Package pdftex.def Info: ip_RL_actions.png  used on input line 267.
 (pdftex.def)             Requested size: 138.79788pt x 104.09605pt.
  [5 <./ip_PID.png> <./ip_PID_actions.png> <./ip.png>]
-<double_PID.png, id=134, 462.528pt x 346.896pt>
+<double_PID.png, id=130, 462.528pt x 346.896pt>
 File: double_PID.png Graphic file (type png)
 <use double_PID.png>
-Package pdftex.def Info: double_PID.png  used on input line 279.
+Package pdftex.def Info: double_PID.png  used on input line 281.
 (pdftex.def)             Requested size: 138.79788pt x 104.09605pt.
-<double_PID_actions.png, id=135, 462.528pt x 346.896pt>
+<double_PID_actions.png, id=131, 462.528pt x 346.896pt>
 File: double_PID_actions.png Graphic file (type png)
 <use double_PID_actions.png>
-Package pdftex.def Info: double_PID_actions.png  used on input line 283.
+Package pdftex.def Info: double_PID_actions.png  used on input line 285.
 (pdftex.def)             Requested size: 138.79788pt x 104.09605pt.
-<double.png, id=138, 939.51pt x 505.89pt>
+<double.png, id=133, 939.51pt x 505.89pt>
 File: double.png Graphic file (type png)
 <use double.png>
-Package pdftex.def Info: double.png  used on input line 295.
+Package pdftex.def Info: double.png  used on input line 297.
 (pdftex.def)             Requested size: 277.60106pt x 149.47554pt.
-<double_RL.png, id=139, 462.528pt x 346.896pt>
-File: double_RL.png Graphic file (type png)
-<use double_RL.png>
-Package pdftex.def Info: double_RL.png  used on input line 303.
-(pdftex.def)             Requested size: 138.79788pt x 104.09605pt.
-<double_RL_actions.png, id=140, 462.528pt x 346.896pt>
-File: double_RL_actions.png Graphic file (type png)
-<use double_RL_actions.png>
-Package pdftex.def Info: double_RL_actions.png  used on input line 307.
-(pdftex.def)             Requested size: 138.79788pt x 104.09605pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [6 <./ip_RL.png> <./ip_RL_actions.png> <./double_PID.png> <./double_PID_action
 s.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
+<double_RL.png, id=146, 462.528pt x 346.896pt>
+File: double_RL.png Graphic file (type png)
+<use double_RL.png>
+Package pdftex.def Info: double_RL.png  used on input line 305.
+(pdftex.def)             Requested size: 138.79788pt x 104.09605pt.
+<double_RL_actions.png, id=147, 462.528pt x 346.896pt>
+File: double_RL_actions.png Graphic file (type png)
+<use double_RL_actions.png>
+Package pdftex.def Info: double_RL_actions.png  used on input line 309.
+(pdftex.def)             Requested size: 138.79788pt x 104.09605pt.
  [7 <./double.png> <./double_RL.png> <./double_RL_actions.png>] (./PIDBasedCoac
 hing.bbl
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-
-[8]) [9]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 349.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 349.
+ [8]) [9]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 350.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 350.
  (./PIDBasedCoaching.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 349.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 349.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 350.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 350.
 Package rerunfilecheck Info: File `PIDBasedCoaching.out' has not changed.
-(rerunfilecheck)             Checksum: B1419F622929D93A1F7BE21DF6D27B6E;262.
+(rerunfilecheck)             Checksum: 4745105744A21DA602E6877A37D1624F;262.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 349.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 350.
  )
 (\end occurred when \ifx on line 99 was incomplete)
 (\end occurred when \ifx on line 99 was incomplete)
@@ -1281,11 +1273,11 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 349.
 (\end occurred when \ifx on line 74 was incomplete)
 (\end occurred when \ifx on line 74 was incomplete) 
 Here is how much of TeX's memory you used:
- 23364 strings out of 481239
- 420617 string characters out of 5920378
- 695891 words of memory out of 5000000
+ 23361 strings out of 481239
+ 420593 string characters out of 5920378
+ 694891 words of memory out of 5000000
  37947 multiletter control sequences out of 15000+600000
- 589596 words of font info for 202 fonts, out of 8000000 for 9000
+ 589466 words of font info for 200 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,9n,60p,1650b,460s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/
@@ -1298,10 +1290,10 @@ st/fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/u
 rw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on PIDBasedCoaching.pdf (9 pages, 536494 bytes).
+Output written on PIDBasedCoaching.pdf (9 pages, 536200 bytes).
 PDF statistics:
- 226 PDF objects out of 1000 (max. 8388607)
- 184 compressed objects within 2 object streams
+ 222 PDF objects out of 1000 (max. 8388607)
+ 180 compressed objects within 2 object streams
  55 named destinations out of 1000 (max. 500000)
  27239 words of extra memory for PDF output out of 29859 (max. 10000000)
 
