@@ -1,4 +1,4 @@
-\begin{thebibliography}{29}
+\begin{thebibliography}{27}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{{#1}}
 \providecommand{\urlprefix}{URL }
@@ -69,11 +69,6 @@ Kalashnikov D, Irpan A, Pastor P, Ibarz J, Herzog A, Jang E, Quillen D, Holly
   reinforcement learning for vision-based robotic manipulation. ArXiv
   abs/1806.10293
 
-\bibitem[{Kaufmann et~al.(2020)Kaufmann, Loquercio, Ranftl, M{\"u}ller, Koltun,
-  and Scaramuzza}]{Kaufmann2020DeepDA}
-Kaufmann E, Loquercio A, Ranftl R, M{\"u}ller M, Koltun V, Scaramuzza D (2020)
-  Deep drone acrobatics. ArXiv abs/2006.05768
-
 \bibitem[{Knox and Stone(2009)}]{Knox2009InteractivelySA}
 Knox WB, Stone P (2009) Interactively shaping agents via human reinforcement:
   the tamer framework. In: K-CAP '09
@@ -128,10 +123,6 @@ Peng X, Abbeel P, Levine S, Panne MVD (2018) Deepmimic: Example-guided deep
   Levine}]{Peng2020LearningAR}
 Peng X, Coumans E, Zhang T, Lee T, Tan J, Levine S (2020) Learning agile
   robotic locomotion skills by imitating animals. ArXiv abs/2004.00784
-
-\bibitem[{Recht(2018)}]{Recht2018ATO}
-Recht B (2018) A tour of reinforcement learning: The view from continuous
-  control. ArXiv abs/1806.09460
 
 \bibitem[{Sutton and Barto(1998)}]{Sutton1998IntroductionTR}
 Sutton R, Barto A (1998) Introduction to reinforcement learning
